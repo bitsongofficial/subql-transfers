@@ -1,0 +1,9 @@
+type TransferEvent @entity {
+  id: ID!
+  blockHeight: BigInt!
+  txHash: String!
+  recipient: String!
+  sender: String!
+  amount: String!
+  createdAt: Date!
+}
